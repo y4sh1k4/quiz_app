@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.start{
+    align-items: flex-start;
+}
+.col{
+    flex-direction: column;
+}
+.ques{
+    margin-top: 2vw;
+}
+.option{
+    margin-left: 2vw;
+}
